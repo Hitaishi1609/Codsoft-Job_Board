@@ -61,6 +61,7 @@ const CreateJob = () => {
       console.log("Printing the formData ");
       console.log(formData)
       dispatch(jobPost(company, roleTitle, skills, experience, roleShortDesc, stipend, workMode, location))
+      toast.success("Job Posted Successfully")
 
     // Reset
     setFormData({

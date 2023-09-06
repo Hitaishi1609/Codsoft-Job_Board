@@ -55,7 +55,7 @@ exports.jobPost = async (req, res) => {
         error: error.message,
       })
     }
-  }
+}
 
 
 // Get Jobs List

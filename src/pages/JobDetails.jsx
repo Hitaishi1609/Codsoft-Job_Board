@@ -61,7 +61,7 @@ const JobDetails = () => {
   </tbody>
 </table>
 
-<button className='bg-green-800 rounded-full p-2 hover:text-white w-1/2 ml-40' 
+<button className='bg-green-800 rounded-full p-2 hover:text-white w-1/2 ml-36 mb-6' 
                   onClick={()=>{navigate('/application-form')}}>
                     Apply
                   </button>

@@ -18,7 +18,7 @@ const JobsList = () => {
 
   return (
     <div>
-      <p className="ml-40 font-bold text-6xl font-serif">
+      <p className="ml-40 font-bold text-5xl font-serif">
         Apply For Your Dream Job Here!
       </p>
 

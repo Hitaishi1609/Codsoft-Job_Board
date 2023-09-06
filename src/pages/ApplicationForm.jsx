@@ -44,6 +44,7 @@ const ApplicationForm = () => {
     const toastId = toast.loading("Loading...")
     dispatch(emailNotif(formData.email, formData.fullname));
     toast.dismiss(toastId)
+    toast.success("Application Submitted Successfully")
 
     // //reset
     setFormData({
